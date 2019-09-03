@@ -12,7 +12,7 @@ Runs the API server<br>
 
 Runs the UI server<br>
 
-## User Logins
+## User Login(s)
 
 #### Teacher login: <br>
 
