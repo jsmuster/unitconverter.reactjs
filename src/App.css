@@ -1,0 +1,145 @@
+body{
+  background-color: #257777 !important;
+  height: 100vh;
+  overflow: hidden auto;
+}
+
+label, legend, hr {
+  color: #fff !important;
+}
+
+h1 {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  cursor: default;
+  margin-top: .5rem !important;
+  margin-bottom: 0 !important;
+}
+
+select {
+  font-size: 13px;
+}
+
+
+.app-wrapper {
+  margin: 30px;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  border-top: 1px solid #fff !important;
+}
+
+.login-wrapp {
+  margin-top: 70px;
+}
+
+.form-group-wrapper:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form-group {
+  margin-right: 15px
+}
+
+table.table th {
+  font-weight: 600;
+  font-size: 15px;  
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+table.table td {
+  font-weight: 600;
+}
+
+.table-editable {
+  overflow: auto;
+  max-height: 65vh;
+  min-height: 65vh;
+}
+
+.table-editable table {
+  margin-bottom: 0;
+}
+
+.table-controls {
+  border-top: 1px solid #dee2e6;
+  background: #e1e1e142;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.log-out-btn {
+  color: #FFf;
+  font-weight: 600;
+  margin-top: 34px;
+}
+
+.log-out-btn:hover {
+  color: #FFf;
+}
+
+.login-btn {
+  font-weight: 600;
+  text-transform: inherit;
+}
+
+.custom-min-w {
+  min-width: 130px;
+}
+
+.refresh-btn {
+  cursor: pointer;
+  padding-right: 30px;
+}
+
+.refresh-btn:hover {
+  color: #337ab7 !important;
+}
+
+.refresh-btn i {
+  font-size: 13px;
+}
+
+.table-add i {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.refresh-btn, .table-add {
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  -o-user-select: none; 
+  -webkit-user-select: none;
+}
+
+@media (max-width: 450px) {
+  .header-wrapper {
+     flex-direction: column; 
+     align-items: flex-start; 
+  }
+
+  .table-editable {
+    max-height: 60vh;
+    min-height: 60vh;
+  }
+}
